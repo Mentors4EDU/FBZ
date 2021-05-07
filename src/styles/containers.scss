@@ -1,0 +1,38 @@
+@import 'variables.scss';
+
+.box {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.contentBox {
+  //used to contain content, usually main sections of the page
+  @extend .box;
+  border-radius: $corner;
+  border-width: 1px;
+  border-style: solid;
+  font-size: $tx4;
+  word-wrap: break-word;
+}
+
+.border {
+  // use on wrapping containers that should have a border. The element should also have a clrBr class.
+  border-width: 1px;
+  border-style: solid;
+}
+
+.borderBottom {
+  // use to separate stacked containers. The element should also have the clrBr class.
+  border-bottom: {
+    width: 1px;
+    style: solid;
+  }
+}
+
+.borderTop {
+  border-top: {
+    width: 1px;
+    style: solid;
+  }
+}
