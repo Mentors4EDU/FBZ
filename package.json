@@ -2,7 +2,6 @@
   "name": "fbz",
   "version": "0.1.0",
   "homepage": "https://github.com/Mentors4EDU/FBZ",
-  "private": true,
   "dependencies": {
     "array-move": "^2.1.0",
     "axios": "^0.18.0",
