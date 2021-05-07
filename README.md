@@ -1,5 +1,5 @@
-# openbazaar-web
-OpenBazaar 2.0 browser-based client.
+# ForkBazaar
+Fork of the OpenBazaar 2.0 browser-based client for GitHub Pages.
 
 ## Available Scripts
 
