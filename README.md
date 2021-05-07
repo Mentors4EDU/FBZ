@@ -1,6 +1,8 @@
 # ForkBazaar
 Fork of the OpenBazaar 2.0 browser-based client.
 
+``npm install fbz``
+
 ## Available Scripts
 
 In the project directory, you can run:
