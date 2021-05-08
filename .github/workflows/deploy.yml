@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - run: npm install npm-run-all --save-dev  
       - run: npm start
       - run: npm run build
 
