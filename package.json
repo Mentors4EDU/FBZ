@@ -61,8 +61,6 @@
     ]
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "npm-run-all build copyBuiltIndex surge",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/styles/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/styles/ --watch --recursive",
     "start-js": "cross-env NODE_PATH=src react-scripts start",
