@@ -6,6 +6,9 @@ jobs:
   build:
     name: Push to Release Branch
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
