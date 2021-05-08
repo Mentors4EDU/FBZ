@@ -1,0 +1,68 @@
+@import 'styles/variables.scss';
+@import 'styles/mixins.scss';
+
+.ModalRoot {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+
+  h1 {
+    margin-top: 0;
+  }
+
+  p {
+    word-break: break-word;
+  }
+
+  .ModalRoot-innerWrap {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include chatOpenTransition(right);
+
+    .ModalRoot-contentWrap {
+      width: $modalWidthL;
+      max-width: 100%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .ModalRoot-close {
+    position: absolute;
+    top: -30px;
+    right: 5px;
+    cursor: pointer;
+
+    &:hover {
+      // todo: theme this dog up
+      background-color: black;
+      color: white;
+    }
+  }
+
+  &.modalS {
+    .ModalRoot-contentWrap {
+      width: $modalWidthS;
+    }
+  }
+
+  &.modalM {
+    .ModalRoot-contentWrap {
+      width: $modalWidthM;
+    }
+  }
+
+  &.modalL {
+    .ModalRoot-contentWrap {
+      width: $modalWidthL;
+    }
+  }
+}

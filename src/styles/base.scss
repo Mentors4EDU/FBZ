@@ -1,0 +1,144 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $baseFontSize;
+  overflow: hidden;
+}
+
+body {
+  background-color: $primary;
+  color: $text;
+  font-size: $tx4;
+}
+
+a,
+.link {
+  color: $text;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.unstyled {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+button.link {
+  border: 0;
+  outline: none;
+  padding: 0;
+  height: auto;
+  font-weight: normal;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+
+  &.unleaded {
+    margin-before: 0;
+    margin-after: 0;
+  }
+
+  &.dashed {
+    border-bottom: 1px dashed;
+  }
+}
+
+ul,
+ol {
+  &.unstyled {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.App-chatContainer {
+  position: fixed;
+  top: $chatTop;
+  right: 0;
+  bottom: 0;
+  @include chatOpenTransition(transform);
+  display: none;
+
+  .Chat-chatVisible & {
+    display: block;
+  }
+}
+
+#OBWEB {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+
+  .block {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .disabled {
+    @include disabled;
+  }
+
+  .unleaded {
+    margin-bottom: 0;
+  }
+
+  .posR {
+    position: relative;
+  }
+
+  .posA {
+    position: absolute;
+  }
+}
+
+// external brand colors. They should not be overwritten by theme colors.
+.twitterColor {
+  color: #00aced;
+  fill: #00aced;
+}
+
+.facebookColor {
+  color: #3b5998;
+  fill: #3b5998;
+}
+
+.pinterestColor {
+  color: #bd081c;
+  fill: #bd081c;
+}
+
+.tumblrColor {
+  color: #35465c;
+  fill: #35465c;
+}
+
+.githubColor,
+.redditColor {
+  color: #000;
+  fill: #000;
+}
