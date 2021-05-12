@@ -8,16 +8,12 @@ export const FETCH_CATEGORIES_SUCCESS = 'FETCH_CATEGORIES_SUCCESS';
 const maxConcurrentFetchCats = 4;
 
 export const categories = [
-  'bitcoin',
-  'crypto',
-  'music',
-  'books',
-  'games',
   'art',
-  'handmade',
-  'clothing',
-  'toys',
-  'health',
+  'music', 
+  'games',
+  'crypto',
+  'bitcoin',
+  'bitclout',
   'electronics'
 ];
 
