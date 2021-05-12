@@ -7,7 +7,8 @@ Fork of the OpenBazaar 2.0 browser-based client.
 
 **Categories** = **art**, **music**, **games**, **crypto**, **bitcoin**, **bitclout**, **electronics**
 
-**Why ForkBazaar?** ForkBazzar is a fork of OpenBazaar that accepts some altcoins including BitClout. It also integrates the GitHub pages action or can be ran on localhost.
+**Why ForkBazaar?**\
+ForkBazzar is a fork of OpenBazaar that accepts some altcoins including BitClout. It also integrates the GitHub pages action or can be ran on localhost.
 
 ## Available Scripts
 
