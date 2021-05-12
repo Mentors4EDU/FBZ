@@ -3,17 +3,9 @@ Fork of the OpenBazaar 2.0 browser-based client.
 
 ``npm install fbz``
 
-Currencies accepted:  ['BTC', 'LNR', 'ETH', 'ETHS', 'BTCLT']
+**Currencies accepted:** **BTC**, **LNR**, **ETH**, **ETHS**, **BTCLT**
 
-categories = [
-  'art',
-  'music', 
-  'games',
-  'crypto',
-  'bitcoin',
-  'bitclout',
-  'electronics'
-];
+**Categories** = **art**, **music**, **games**, **crypto**, **bitcoin**, **bitclout**, **electronics**
 
 **Why ForkBazaar?** ForkBazzar 
 
