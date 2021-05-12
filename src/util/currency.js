@@ -10,7 +10,7 @@ const isFiat = cur => {
 
 // temp stub until we have a wallet curs module
 const isWalletCur = code => {
-  return ['BTC', 'BCH', 'LTC', 'ZEC', 'ETH'].includes(code.toUpperCase());
+  return ['BTC', 'LNR', 'ETH', 'ETHS', 'BTCLT'].includes(code.toUpperCase());
 };
 
 // todo: doc me up
