@@ -10,6 +10,9 @@ Fork of the OpenBazaar 2.0 browser-based client.
 **Why ForkBazaar?**\
 ForkBazzar is a fork of OpenBazaar that accepts some altcoins including BitClout. It also integrates the GitHub pages action and can be ran on `localhost:`.
 
+
+**Running a BitClout Node:**
+
 ## Available Scripts
 
 In the project directory, you can run:
