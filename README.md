@@ -20,4 +20,6 @@ ForkBazzar is a fork of OpenBazaar that accepts some altcoins including BitClout
 **Running a BitClout Node:** \
 First make sure that you have Docker and Docker Compose installed. \
 Please `git clone https://github.com/bitclout/run.git` \
-`cd run`
+`cd run`\
+Then run the `./run.sh` script. \
+If needed to, you can change the ports in the `docker-compose.dev.yml`.
