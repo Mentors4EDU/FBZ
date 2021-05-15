@@ -17,4 +17,7 @@ You can also run `npm test` or compile/build using `npm run build` for deploymen
 ForkBazzar is a fork of OpenBazaar that accepts some altcoins including BitClout. It also integrates the GitHub pages action and can be ran on `localhost:`.
 
 
-**Running a BitClout Node:**
+**Running a BitClout Node:** \
+First make sure that you have Docker and Docker Compose installed. \
+Please `git clone https://github.com/bitclout/run.git` \
+`cd run`
