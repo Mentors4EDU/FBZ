@@ -2,7 +2,6 @@
   "name": "fbz",
   "version": "0.2.0",
   "homepage": "http://localhost:8675",
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mentors4EDU/FBZ.git"
@@ -11,7 +10,7 @@
     "P2P",
     "Peer",
     "Crypto",
-    "BitClout",
+    "BitClout"
   ],
   "dependencies": {
     "array-move": "^2.1.0",
