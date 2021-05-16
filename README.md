@@ -11,7 +11,7 @@ You can also run `npm test` or compile/build using `npm run build` for deploymen
 
 **Currencies accepted:** **BTC**, **LNR**, **ETH**, **ETHS**, **BTCLT**
 
-**Categories** = **art**, **music**, **games**, **crypto**, **bitcoin**, **bitclout**, **electronics**
+**Categories:** **art**, **music**, **games**, **crypto**, **bitcoin**, **bitclout**, **electronics**
 
 **Why ForkBazaar?**\
 ForkBazzar is a fork of OpenBazaar that accepts some altcoins including BitClout. It also integrates the GitHub pages action and can be ran on `localhost:`.
@@ -23,3 +23,5 @@ Please `git clone https://github.com/bitclout/run.git` \
 `cd run`\
 Then run the `./run.sh` script. \
 If needed to, you can change the ports in the `docker-compose.dev.yml`.
+
+*Not sure if this will work, but GitHub pages [deployment guide](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f).*
