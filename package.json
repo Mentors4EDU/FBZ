@@ -2,10 +2,10 @@
   "name": "fbz",
   "version": "0.3.0",
   "homepage": "http://localhost:8675",
+  "description": "Fork of the OpenBazaar 2.0 browser-based client.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mentors4EDU/FBZ.git",
-    "description": "Fork of the OpenBazaar 2.0 browser-based client."
+    "url": "git+https://github.com/Mentors4EDU/FBZ.git"
   },
   "keywords": [
     "P2P",
